@@ -1,0 +1,70 @@
+.downloadSection {
+  padding: 100px 40px;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  text-align: center;
+  color: white;
+}
+
+.downloadSection h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.downloadSection p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.appButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.appButton {
+  background: white;
+  color: #8b5cf6;
+  padding: 20px 36px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.appButton:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.availability {
+  margin-top: 30px !important;
+  font-size: 16px !important;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .downloadSection h2 {
+    font-size: 32px;
+  }
+
+  .downloadSection p {
+    font-size: 16px;
+  }
+
+  .appButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .appButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
