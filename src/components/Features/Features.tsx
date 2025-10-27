@@ -33,7 +33,7 @@ const Features: React.FC = () => {
     {
       icon: '💰',
       title: 'Affordable Pricing',
-      description: "Transparent pricing with no hidden charges. Starting at just ₹50 per kg."
+      description: "Transparent pricing with no hidden charges. Starting at just ₹85 per kg."
     },
     {
       icon: '🛡️',
